@@ -3,6 +3,9 @@
 This project depends on pygame.
 
     # using pip
+    python3 -m pip install -U pygame --user
+
+    # using pip command
     pip install pygame
 
     # using apt
