@@ -5,6 +5,9 @@ This project depends on pygame.
     # using pip
     python -m pip install -U pygame --user
 
+    # for windows, may need to “cd C:\Python27” or something similar first
+    python.exe -m pip install -U pygame --user
+
     # using pip command
     pip install pygame
 
