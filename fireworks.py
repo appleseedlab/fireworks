@@ -56,7 +56,7 @@ def hsl(h, s, l):
     hprime = h / 60
     x = chroma * (1 - math.fabs(hprime % 2 - 1))
     m = l - chroma / 2
-    print hprime, m
+    # print hprime, m
     if 0 <= hprime < 1:
         rgb = (chroma , x , 0)
     elif 1 <= hprime < 2:
